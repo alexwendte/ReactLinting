@@ -1,0 +1,7 @@
+# Project dependencies
+
+# Config Files
+.env*
+
+# For me
+/local

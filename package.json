@@ -1,0 +1,24 @@
+{
+  "name": "react-linting",
+  "description": "A stat of to use React with EsLint!",
+  "version": "0.0.1",
+  "author": "Alex Wendte <alex@wendtedesigns.com>",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "react": "^16.4.0",
+    "react-helmet": "^5.2.0",
+    "react-router": "^4.2.0",
+    "sharp": "^0.20.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-graphql": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.12.1"
+  }
+}
