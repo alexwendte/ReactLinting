@@ -1,15 +1,6 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react",
-    "plugin:react/recommended"
-  ],
-  "plugins": [
-    "prettier",
-    "graphql",
-    "react"
-  ],
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": ["graphql", "react"],
   "settings": {},
   "env": {
     "browser": true,
@@ -19,10 +10,7 @@
     "graphql": true
   },
   "rules": {
-    "linebreak-style": [
-      "error",
-      "windows"
-    ],
+    "linebreak-style": ["error", "windows"],
     "no-unused-vars": [
       1,
       {
@@ -40,32 +28,11 @@
       2,
       {
         "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
+        "allow": ["resolve", "reject", "done", "next", "err", "error"]
       }
     ],
-    "quotes": [
-      2,
-      "single",
-      {
-        "avoidEscape": true,
-        "allowTemplateLiterals": true
-      }
-    ],
-    "arrow-body-style": [
-      2,
-      "as-needed"
-    ],
-    "arrow-parens": [
-      2,
-      "as-needed"
-    ],
+    "arrow-body-style": [2, "as-needed"],
+    "arrow-parens": [2, "as-needed"],
     "no-unused-expressions": [
       2,
       {
@@ -98,27 +65,13 @@
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {
-        "aspects": [
-          "invalidHref"
-        ]
+        "aspects": ["invalidHref"]
       }
     ],
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
-      }
-    ],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "printWidth": 120,
-        "arrowParens": "avoid"
+        "extensions": [".js", ".jsx"]
       }
     ]
   }
